@@ -80,12 +80,13 @@ window.addEventListener('keydown',e=>{
             }
         }
         else{
-            if (!wrongLetters.includes(letter)){
-                wrongLetters.push(letter.toLowerCase());
-                updateWrongLettersEl();
+            if (wrongLetters.includes(letter)){
+     
+                showNotification();
             }
             else{
-                showNotification();
+                wrongLetters.push(letter.toLowerCase());
+                updateWrongLettersEl();
             }
         }
     }
