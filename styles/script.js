@@ -7,7 +7,7 @@ const finalMessage = document.getElementById('final-message');
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['nahinos','aanaf','oknee','saleh','monsol','fucksayem','meowmeow','lordsimp','fardin'];
+const words = ['lohoree','rhythm','shadman','arnob','subha','sharanika','tashfia','tanjib','archana','farhan'];
 
 let selectedWord = words[Math.floor(Math.random()*words.length)];
 
@@ -103,6 +103,5 @@ playAgainBtn.addEventListener('click', ()=>{
     updateWrongLettersEl();
     popup.style.display = 'none';
 })
-
 
 displayWord();
