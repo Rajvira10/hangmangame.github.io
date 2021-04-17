@@ -72,7 +72,7 @@ window.addEventListener('keydown',e=>{
         const letter = e.key;
         if(selectedWord.includes(letter)){
             if (!correctLetters.includes(letter)){
-                correctLetters.push(letter);
+                correctLetters.push(letter.toLowerCase());
                 displayWord();
             }
             else{
@@ -81,7 +81,7 @@ window.addEventListener('keydown',e=>{
         }
         else{
             if (!wrongLetters.includes(letter)){
-                wrongLetters.push(letter);
+                wrongLetters.push(letter.toLowerCase());
                 updateWrongLettersEl();
             }
             else{
