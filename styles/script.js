@@ -11,7 +11,7 @@ const words = ['nahinos','aanaf','oknee','saleh','monsol','fucksayem','meowmeow'
 
 let selectedWord = words[Math.floor(Math.random()*words.length)];
 
-const correctLetters =[];
+const correctLetters = [];
 const wrongLetters = [];
 
 // Show Hidden Word
