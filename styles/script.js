@@ -7,7 +7,7 @@ const finalMessage = document.getElementById('final-message');
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['lohoree','rhythm','shadman','arnob','subha','sharanika','tashfia','tanjib','archana','farhan'];
+const words = ['nahin','ahnaf','onie','inan','monsol','porom','saleh','fucksayem','fardin'];
 
 let selectedWord = words[Math.floor(Math.random()*words.length)];
 
